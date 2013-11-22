@@ -1,0 +1,42 @@
+{
+    "type": "FeatureCollection",
+    "id": "001",
+    "features": [
+        {
+            "type": "Feature",
+            "id": "001",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [0.0, 1.0]
+            },
+            "properties": {
+                "Scale": 2500,
+                "Accuracy": 5000,
+                "Dip Direction": 90.0,
+                "Downthrown Side": "N",
+                "Strike": 0.0,
+                "Surface Dip": 85.0,
+                "Notes": null,
+                "Site Feature": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "002",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [1.0, 1.0]
+            },
+            "properties": {
+                "Scale": 2500,
+                "Accuracy": 5000,
+                "Dip Direction": 90.0,
+                "Downthrown Side": "N",
+                "Strike": 0.0,
+                "Surface Dip": 85.0,
+                "Notes": null,
+                "Site Feature": null
+            }
+        }
+    ]
+}

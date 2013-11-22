@@ -1,0 +1,52 @@
+{
+    "type": "FeatureCollection",
+    "id": "001",
+    "features": [
+        {
+            "type": "Feature",
+            "id": "001",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [0.0, 1.0]
+            },
+            "properties": {
+                "Scale": 2500,
+                "Accuracy": 5000,
+                "Dip Slip": {"Preferred": null, "Minimum": null, "Maximum": null},
+                "Strike-Slip": {"Preferred": null, "Minimum": null, "Maximum": null},
+                "Vertical": {"Preferred": null, "Minimum": null, "Maximum": null},
+                "Net Slip": {"Preferred": null, "Minimum": null, "Maximum": null},
+                "HV Ratio": {"Preferred": null, "Minimum": null, "Maximum": null},
+                "Rake": {"Preferred": null, "Minimum": null, "Maximum": null},
+                "Slip Category": null,
+                "Slip Type": {"Value":null, "Completeness":null},
+                "Aseismic": {"Value":0.0, "Completeness": 1},
+                "Notes": null,
+                "Site Feature": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "002",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [1.0, 1.0]
+            },
+            "properties": {
+                "Scale": 2500,
+                "Accuracy": 5000,
+                "Dip Slip": {"Preferred": null, "Minimum": null, "Maximum": null},
+                "Strike-Slip": {"Preferred": null, "Minimum": null, "Maximum": null},
+                "Vertical": {"Preferred": null, "Minimum": null, "Maximum": null},
+                "Net Slip": {"Preferred": null, "Minimum": null, "Maximum": null},
+                "HV Ratio": {"Preferred": null, "Minimum": null, "Maximum": null},
+                "Rake": {"Preferred": null, "Minimum": null, "Maximum": null},
+                "Slip Category": null,
+                "Slip Type": {"Value":null, "Completeness":null},
+                "Aseismic": {"Value":0.0, "Completeness": 1},
+                "Notes": null,
+                "Site Feature": null
+            }
+        }
+    ]
+}

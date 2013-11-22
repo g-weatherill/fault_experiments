@@ -1,0 +1,60 @@
+{
+    "type": "FeatureCollection",
+    "id": "001",
+    "features": [
+        {
+            "type": "Feature",
+            "id": "001",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0,
+                    1
+                ]
+            },
+            "properties": {
+                "scale": 2500,
+                "accuracy": 5000,
+                "TotalDisplacement": 5,
+                "Category": "0.5-<1.0",
+                "Horizontal": 3,
+                "Vertical": 2,
+                "Net": 5,
+                "Value": {
+                    "Expected": 5,
+                    "Minimum": 3,
+                    "Maximum": 7
+                },
+                "Notes": null,
+                "SiteFeature": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "002",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1,
+                    1
+                ]
+            },
+            "properties": {
+                "scale": 2500,
+                "accuracy": 5000,
+                "Total Displacement": 3,
+                "Category": "0.5 - < 1.0",
+                "Horizontal": 1,
+                "Vertical": 2,
+                "Net": 3,
+                "Value": {
+                    "Expected": 3,
+                    "Minimum": 2,
+                    "Maximum": 5
+                },
+                "Notes": null,
+                "Site Feature": "A Site Feature"
+            }
+        }
+    ]
+}

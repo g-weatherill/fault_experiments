@@ -1,0 +1,46 @@
+{
+    "type": "FeatureCollection",
+    "id": "001",
+    "features": [
+        {
+            "type": "Feature",
+            "id": "001",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [0.0, 1.0]
+            },
+            "properties": {
+                "Scale": 2500,
+                "Accuracy": 5000,
+                "Recurrence Interval": {
+                    "Preferred": 3600,
+                    "Minimum": 3000,
+                    "Maximum": 4000
+                },
+                "Recurrence Category": "4000 - 2000",
+                "Movement": {
+                    "Preferred":null,
+                    "Minimum":null,
+                    "Maximum":null
+                },
+                "Movement Category": null,
+                "Event List": [
+                    {
+                        "Event Type": "Historical",
+                        "Preferred":1912,
+                        "Minimum":null,
+                        "Maximum":null
+                    },
+                    {
+                        "Event Type": "Prehistoric",
+                        "Preferred":5000,
+                        "Minimum":4500,
+                        "Maximum":5500
+                    }
+                ],
+                "Notes": null,
+                "Site Feature": null
+            }
+        }
+    ]
+}

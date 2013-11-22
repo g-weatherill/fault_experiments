@@ -1,0 +1,44 @@
+{
+    "type": "FeatureCollection",
+    "id": "001",
+    "features": [
+        {
+            "type": "Feature",
+            "id": "001",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [0.0, 1.0], [1.0, 1.0]
+                    ]
+            },
+            "properties": {
+                "Scale": 2500,
+                "Accuracy": 5000,
+                "Name": "A Trace",
+                "Location Method": "Aerial Photograph",
+                "Geomorphic Expression": null,
+                "Notes": null,
+                "Site Feature": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "002",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [1.0, 1.0], [1.0, 1.5]
+                    ]
+            },
+            "properties": {
+                "Scale": 2500,
+                "Accuracy": 5000,
+                "Name": "A Trace",
+                "Location Method": "Aerial Photograph",
+                "Geomorphic Expression": null,
+                "Notes": null,
+                "Site Feature": null
+            }
+        }
+    ]
+}

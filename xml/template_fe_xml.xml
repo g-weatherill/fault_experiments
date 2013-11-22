@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nrml xmlns:gml="http://www.opengis.net/gml" xmlns="http://openquake.org/xmlns/nrml/0.4">
+    <activeFaultSet id="001" name="Template Active Fault Set">
+        <activeFault id="001" name="A Fault">
+            <faultSource id="001" name="A Fault Source">                
+            </faultSource>
+            <neotectonicSection id="001" name="Section 1">
+                <traceSet>
+                    <trace id="001" name="Trace 1" scale="2500" accuracy="5000">
+                        <notes>Here is a trace</notes>
+                        <locationMethod>Aerial Photograph</locationMethod>
+                        <geomorphicExpression>Surface Trace</geomorphicExpression>
+                        <location>
+                            <gml:LineString>
+                                <gml:PosList>
+                                    0. 0.
+                                    1.0 1.0
+                                </gml:PosList>
+                            </gml:LineString>
+                        </location>
+                    </trace>
+                    <trace id="002" name="Trace 2" scale="2500" accuracy="5000">
+                        <notes>Here is another trace</notes>
+                        <locationMethod>Aerial Photograph</locationMethod>
+                        <geomorphicExpression>Surface Trace</geomorphicExpression>
+                        <location>
+                            <gml:LineString>
+                                <gml:PosList>
+                                    1. 1.
+                                    1.5 2.0
+                                </gml:PosList>
+                            </gml:LineString>
+                        </location>
+                    </trace>
+                </traceSet>
+                <displacementObservationSet>
+                    <displacement id="001" scale="2500" accuracy="5000">
+                        <totalDisplacement>2.0</totalDisplacement>
+                        <Category>0.5 - 1.0</Category>
+                        <Horizontal>0</Horizontal>
+                        <Vertical>50</Vertical>
+                        <Net>50</Net>
+                        <Value>
+                            <Preferred>50</Preferred>
+                            <Minimum>40</Minimum>
+                            <Maximum>60</Maximum>
+                        </Value>
+                        <notes>Langridge et al (2000)</notes>
+                        <gml:Point>
+                            <gml:pos>0.5 0.5</gml:pos>
+                        </gml:Point>
+                        <siteFeature>Trench</siteFeature>
+                    </displacement>
+                </displacementObservationSet>
+                <eventObservationSet>
+                    <event id="001" scale="2500" accuracy="5000">
+                        <gml:Point>
+                            <gml:pos>0.5 0.5</gml:pos>
+                        </gml:Point>
+                        <recurrenceInterval>
+                            <Preferred>3600</Preferred>
+                            <Minimum>3000</Minimum>
+                            <Maximum>5000</Maximum>
+                            <Category>2,000 - 1,000</Category>
+                        </recurrenceInterval>
+                        <lastMovementAge>
+                            <Preferred></Preferred>
+                            <Minimum></Minimum>
+                            <Maximum></Maximum>
+                            <Category></Category>
+                        </lastMovementAge>
+                        <markerAge></markerAge>
+                        <ruptureEventList>
+                            <ruptureEvent type="Historical">
+                                <Preferred>1912</Preferred>
+                                <Minimum></Minimum>
+                                <Maximum></Maximum>
+                            </ruptureEvent>
+                            <ruptureEvent type="Pre-Historic">
+                                <Preferred>4700</Preferred>
+                                <Minimum></Minimum>
+                                <Maximum></Maximum>                            
+                            </ruptureEvent>
+                        </ruptureEventList>
+                        <notes>Langridge et al (2000)</notes>
+                        <siteFeature>Trench</siteFeature>
+                    </event>
+                </eventObservationSet>
+                <slipObservationSet>
+                    <slipObservation id="001" scale="2500" accuracy="5000">
+                        <gml:Point>
+                            <gml:pos>0.5 0.5</gml:pos>
+                        </gml:Point>
+                        <dipSlipRate>
+                            <Preferred></Preferred>
+                            <Minimum></Minimum>
+                            <Maximum></Maximum>
+                        </dipSlipRate>
+                        <strikeSlipRate>
+                            <Preferred></Preferred>
+                            <Minimum></Minimum>
+                            <Maximum></Maximum>
+                        </strikeSlipRate>
+                        <verticalSlipRate>
+                            <Preferred></Preferred>
+                            <Minimum></Minimum>
+                            <Maximum></Maximum>
+                        </verticalSlipRate>
+                        <netSlipRate Completeness="1">
+                            <Preferred></Preferred>
+                            <Minimum></Minimum>
+                            <Maximum></Maximum>
+                            <Completeness></Completeness>
+                        </netSlipRate>
+                        <hvRatio>
+                            <Preferred></Preferred>
+                            <Minimum></Minimum>
+                            <Maximum></Maximum>
+                        </hvRatio>
+                        <Rake>
+                            <Preferred></Preferred>
+                            <Minimum></Minimum>
+                            <Maximum></Maximum>                            
+                        </Rake>
+                        <slipRateCategory></slipRateCategory>
+                        <slipType Completeness="1"></slipType>
+                        <aseismicSlip Completeness="1"></aseismicSlip>
+                        <notes></notes>
+                        <siteFeature></siteFeature>
+                    </slipObservation>
+                </slipObservationSet>
+            </neotectonicSection>
+        </activeFault>
+    </activeFaultSet>
+</nrml>
