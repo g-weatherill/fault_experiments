@@ -1,0 +1,76 @@
+{
+    "type": "FeatureCollection",
+    "id": "001",
+    "features": [
+        {
+            "type": "Feature",
+            "id": "001",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [[30.0, 30.0],
+                                [30.0, 31.5]]
+                },
+            "properties": {
+                "Source Weight": 1.0,
+                "Typology": "Simple",
+                "Upper Depth": 0.0,
+                "Lower Depth": 20.0,
+                "Dip": 60.0,
+                "Strike": null,
+                "Rake": 0.0,
+                "Slip Type": "Thrust",
+                "Slip": {"Value": [18.0, 20.0, 22.0], "Weight":[0.3, 0.5, 0.2], "Completeness": 1},
+                "Aseismic": {"Value": [0.0, 0.3, 0.5],"Weight": [0.5, 0.4, 0.1]},
+                "Shear Modulus": {"Value": [30.0], "Weight":[1.0]},
+                "Scaling Relation": {"Value": ["WC1994"], "Weight": [1.0]},
+                "Scaling Relation Sigma": {"Value": [-1.5, 0.0, 1.5], "Weight": [0.15, 0.7, 0.15]},
+                "Aspect Ratio": {"Value": [1.0, 1.5], "Weight": [0.5, 0.5]},
+                "Displacement Length Ratio": {"Value": [1.25E-5], "Weight": [1.0]},
+                "Magnitude Frequency Model": [
+                    {"Model Name": "Characteristic",
+                     "MFD Spacing": 0.1,
+                     "Weight": 0.2,
+                     "Maximum Magnitude": null,
+                     "Sigma": 0.12,
+                     "Lower Bound": -3.0,
+                     "Upper Bound": 3.0
+                    },
+                    {"Model Name": "AndersonLucoArbitrary",
+                     "Model Type": "First",
+                     "MFD Spacing": 0.1,
+                     "Weight": 0.1,
+                     "Maximum Magnitude": null,
+                     "Maximum Magnitude Uncertainty": null,
+                     "Minimum Magnitude": 4.5,
+                     "b_value": [0.8, 0.05]
+                     },
+                    {"Model Name": "AndersonLucoAreaMmax",
+                     "Model Type": "Second",
+                     "MFD Spacing": 0.1,
+                     "Weight": 0.1,
+                     "Maximum Magnitude": null,
+                     "Maximum Magnitude Uncertainty": null,
+                     "Minimum Magnitude": 4.5,
+                     "b_value": [0.8, 0.05]
+                     },
+                     { "Model Name": "YoungsCoppersmithExponential",
+                     "MFD Spacing": 0.1,
+                     "Weight": 0.3,
+                     "Maximum Magnitude": null,
+                     "Maximum Magnitude Uncertainty": null,
+                     "Minimum Magnitude": 5.0,
+                     "b_value": [0.8, 0.05]
+                     },
+                     {"Model Name": "YoungsCoppersmithCharacteristic",
+                     "MFD Spacing": 0.1,
+                     "Weight": 0.3,
+                     "Maximum Magnitude": null,
+                     "Maximum Magnitude Uncertainty": null,
+                     "Minimum Magnitude": 5.0,
+                     "b_value": [0.8, null]                        
+                     }
+                ]
+            }
+        }
+    ]
+}

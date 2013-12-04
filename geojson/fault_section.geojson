@@ -1,0 +1,103 @@
+{
+    "type": "FeatureCollection",
+    "id": "001",
+    "features": [
+        {
+            "type": "Feature",
+            "id": "001",
+            "geometry": {
+                "type": "MultiLineString",
+                "coordinates": [
+                    [[30.0, 31.0], [31.0, 31.0]],
+                    [[31.5, 32.0], [32.0, 32.0]]
+                ]
+            },
+            "properties": {
+                "Typology": "Simple",
+                "Name": "A Fault",
+                "Length": {"Preferred": 100.0, "Minimum": null, "Maximum": null},
+                "Upper Depth": {"Preferred": 0.0, "Minimum": null, "Maximum": null, "Completeness": 1},
+                "Lower Depth": {"Preferred": 30.0, "Minimum": null, "Maximum": null, "Completeness": 1},
+                "Dip": {"Preferred": 30.0, "Minimum": null, "Maximum": null, "Completeness": 1},
+                "Dip Direction": {"Preferred": 90.0, "Completeness":null},
+                "Dip Slip": {"Preferred": 2.0, "Minimum": null, "Maximum": null},
+                "Strike Slip": {"Preferred": 1.0, "Minimum": null, "Maximum": null},
+                "Vertical Slip": {"Preferred": 1.0, "Minimum": null, "Maximum": null},
+                "HV Ratio": {"Preferred": 1.5, "Minimum": null, "Maximum": null, "Completeness": 1},
+                "Net Slip": {"Preferred": 3.0, "Minimum": null, "Maximum": null, "Completeness": 1},
+                "Slip Category": "1.0 - <5.0",
+                "Slip Type": {"Preferred": "Dextral", "Completeness": 1},
+                "Aseismic": {"Preferred": 0.0, "Completeness": 1},
+                "Rake": {"Preferred": 90.0, "Minimum": null, "Maximum": null},
+                "Displacement": {"Total": null,
+                                 "Category": null,
+                                 "Horizontal": null,
+                                 "Vertical":null,
+                                 "Net": null,
+                                 "Minimum": null,
+                                 "Maximum": null,
+                                 "Preferred": null},
+                "Recurrence": {"Preferred": null, "Minimum": null, "Maximum": null, "Category": null},
+                "Movement": {"Preferred": null, "Minimum": null, "Maximum": null, "Category": null},
+                "Historical": null,
+                "Pre-historic": null,
+                "Compiler": null,
+                "Contributer": null,
+                "Created": null,
+                "Comment": null,
+                "slip_observation": {
+                    "type": "FeatureCollection",
+                    "id": "001",
+                    "features": [
+                        {
+                            "type": "Feature",
+                            "id": "001",
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [0.0, 1.0]
+                            },
+                            "properties": {
+                                "Scale": 2500,
+                                "Accuracy": 5000,
+                                "Dip Slip": {"Preferred": null, "Minimum": null, "Maximum": null},
+                                "Strike-Slip": {"Preferred": null, "Minimum": null, "Maximum": null},
+                                "Vertical": {"Preferred": null, "Minimum": null, "Maximum": null},
+                                "Net Slip": {"Preferred": null, "Minimum": null, "Maximum": null},
+                                "HV Ratio": {"Preferred": null, "Minimum": null, "Maximum": null},
+                                "Rake": {"Preferred": null, "Minimum": null, "Maximum": null},
+                                "Slip Category": null,
+                                "Slip Type": {"Value":null, "Completeness":null},
+                                "Aseismic": {"Value":0.0, "Completeness": 1},
+                                "Notes": null,
+                                "Site Feature": null
+                            }
+                        },
+                        {
+                            "type": "Feature",
+                            "id": "002",
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [1.0, 1.0]
+                            },
+                            "properties": {
+                                "Scale": 2500,
+                                "Accuracy": 5000,
+                                "Dip Slip": {"Preferred": null, "Minimum": null, "Maximum": null},
+                                "Strike-Slip": {"Preferred": null, "Minimum": null, "Maximum": null},
+                                "Vertical": {"Preferred": null, "Minimum": null, "Maximum": null},
+                                "Net Slip": {"Preferred": null, "Minimum": null, "Maximum": null},
+                                "HV Ratio": {"Preferred": null, "Minimum": null, "Maximum": null},
+                                "Rake": {"Preferred": null, "Minimum": null, "Maximum": null},
+                                "Slip Category": null,
+                                "Slip Type": {"Value":null, "Completeness":null},
+                                "Aseismic": {"Value":0.0, "Completeness": 1},
+                                "Notes": null,
+                                "Site Feature": null
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

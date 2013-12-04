@@ -247,7 +247,7 @@ class BaseFault(object):
         self.aspect = _assert_assign(attributes['HV Ratio'])
         self.slip = _assert_assign(attributes['Net Slip'])
         self.slip_category = attributes['Slip Category']
-        self.rake = _assert_assign(attributes['Rake'], 3)
+        self.rake = _assert_assign(attributes['Rake'])
         self.slip_type = _assert_assign(attributes['Slip Type'])
         self.aseismic = _assert_assign(attributes['Aseismic'])
         self.displacement = attributes['Displacement']
